@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Game of Life, using LLMs"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "accelerate>=1.4.0",
+    "datasets>=3.3.2",
+    "outlines>=0.2.1",
+    "pygame>=2.6.1",
+    "sentencepiece>=0.2.0",
+    "transformers>=4.49.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
