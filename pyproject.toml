@@ -1,0 +1,7 @@
+[project]
+name = "game-of-life-llms"
+version = "0.1.0"
+description = "Game of Life, using LLMs"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
